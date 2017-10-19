@@ -1,0 +1,294 @@
+<!-- 
+笔记：
+
+移动端布局 以百分比为主（宽度），以rem（单位）为副
+rem以根元素的字体大小
+100px=1rem
+
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- 修改视口 -->
+	<meta name="viewport" content="width=device-width">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/demo.css"> -->
+</head>
+<body>
+	<!-- 头部区域开始 -->
+	<header>
+		<span class="banner"></span><!-- 
+	 --><span class="search-bar"><!-- 
+		 --><input class="search" type="text" placeholder="搜索商铺/店铺">
+			<i class="serach-icon"></i>
+		</span><!-- 
+	 --><span class="login">登陆</span>
+	</header>
+	<div id="head"></div>
+	<!-- 头部区域结束 -->
+	
+	<!-- 轮番图开始 -->
+	<section class="focus">
+		<ul class="points">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</section>
+	<!-- 轮番图结束 -->
+	
+	<!-- 页面的主体部分 -->
+	<main>
+		<!-- 积分区域开始 -->
+		<section class="integral">
+			<ul class="integral-list clearfix">
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_01.png" alt="">
+						<p class="integral-title">积分乐园</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_02.png" alt="">
+						<p class="integral-title">充值中心</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_03.png" alt="">
+						<p class="integral-title">天猫国际</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_04.png" alt="">
+						<p class="integral-title">聚划算</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_05.png" alt="">
+						<p class="integral-title">天猫超市</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_06.png" alt="">
+						<p class="integral-title">免费试用</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_07.png" alt="">
+						<p class="integral-title">尤物</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_08.png" alt="">
+						<p class="integral-title">粉丝趴</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_09.png" alt="">
+						<p class="integral-title">教你烘培</p>
+					</a>	
+				</li>
+				<li>
+					<a class="integral-img" href="">
+						<img src="images/jifen_10.png" alt="">
+						<p class="integral-title">分类</p>
+					</a>	
+				</li>
+			</ul>
+		</section>
+		<!-- 积分区域结束 -->
+		
+		<!-- 天猫热点区域开始 -->
+		<section class="hotspot-area clearfix">
+			<div class="hotspot-left fl">
+				<a class="hotspot-left-link" href="">
+					<img src="images/redian-1.png" alt="">
+				</a>
+			</div>
+			<div class="hotspot-right fl">
+				<a class="hotspot-right-link clearfix" href="">
+					<div class="hotspot-right-icon fl">
+						<img src="images/laba.png" alt="">
+					</div>
+					<div class="hotspot-right-text fl">
+						<p>春季瘦身养身季，部分第二份半价</p>
+						<p class="hotspot-rext-red">9.9元秒杀+买二增一</p>
+					</div>
+				</a>
+			</div>
+		</section>
+		<!-- 天猫热点区域结束 -->
+
+		<!-- 轮播图区域开始 -->
+		<section class="carousel-area">
+			<a class="carousel-left fl" href="">
+				<img src="images/lunbo1_02.png" alt="">
+			</a>
+			<a class="carousel-right fr" href="">
+				<img src="images/lubbo2_03.png" alt="">
+			</a>
+		</section>
+		<!-- 轮播图区域结束 -->
+		
+		<!-- 必抢区域开始 -->
+		<section class="must-buy-area">
+			<h3 class="must-buy-head">
+				<i class="must-buy-icon"></i>必抢
+			</h3>
+			<ul class="must-buy clearfix">
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png"" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png"" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png"" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+			</ul>
+			<ul class="must-buy clearfix">
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png"" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png"" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+				<li class="must-buy-list">
+					<a class="must-buy-link" href="">
+						<span class="must-buy-title">今日必抢</span>
+						<img src="images/bihuo_02.png"" alt="">
+						<span class="must-buy-price">￥32<s>￥289</s></span>
+					</a>
+				</li>
+			</ul>
+
+		</section>
+		<!-- 必抢区域结束 -->
+		
+		<!-- 潮流酷玩开始 -->
+		<section class="sunning-area">
+			<h3 class="sunning-head">
+				<i class="sunning-icon"></i>潮流酷玩
+			</h3>
+			<ul class="list clearfix">
+				<li><a href=""><img src="images/suning1.webp" alt=""></a></li>
+				<li><a href=""><img src="images/suning2.webp" alt=""></a></li>
+				<li><a href=""><img src="images/suning3.webp" alt=""></a></li>
+			</ul>
+		</section>
+		<!-- 潮流酷玩结束 -->
+
+		<!-- 便携生活区域开始 -->
+		<section class="life-area">
+			<h3 class="life-head">
+				<i class="life-icon"></i>便携生活
+			</h3>
+			<div class="life-con clearfix">
+				<a class="life-left fl" href=""></a>
+				<div class="life-right fl">
+					<a class="life-r top" href="">
+						<img src="images/bianxie2_07.png" alt="">
+					</a>
+					<a class="life-r bottom" href="">
+						<img src="images/bianxie3_07.png" alt="">
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- 便携生活区域结束 -->
+
+		<!-- 精选市场区域开始 -->
+		<section class="featured-area">
+			<h3 class="featured-head">
+				<i class="featured-icon"></i>精选市场
+			</h3>
+			<ul class="featured-list clearfix">
+				<li><a href=""><img src="images/jingxuan1.webp" alt=""></a></li>
+				<li><a href=""><img src="images/jingxuan2.webp" alt=""></a></li>
+				<li><a href=""><img src="images/jingxuan3.webp" alt=""></a></li>
+				<li><a href=""><img src="images/jingxuan4.webp" alt=""></a></li>
+			</ul>
+			<ul class="featured-list bottom clearfix">
+				<li><a href=""><img src="images/jingxuan5.webp" alt=""></a></li>
+				<li><a href=""><img src="images/jingxuan6.webp" alt=""></a></li>
+			</ul>
+		</section>
+		<!-- 精选市场区域结束 -->
+	</main>
+	<!-- 页面的主体部分结束 -->
+	
+
+	<!-- 页面底部区域开始 -->
+	<footer>
+		<h3 class="end">
+			<i class="end-iconfont"></i>
+		</h3>
+		<p class="foot-link">
+			<a href="">登陆</a><!-- 
+		 --><span>|</span><!-- 
+		 --><a href="">注册</a><!-- 
+		 --><span>|</span><!-- 
+		 --><a href="">天猫首页</a><!-- 
+		 --><span>|</span><!-- 
+		 --><a href="">下载客户端</a>
+		</p>
+		<p class="copyright">© 2003-2016 Tmall.com 版权所有</p>
+	</footer>
+	<!-- 页面底部区域结束 -->
+	
+	<script src="js/rem.js"></script>
+</body>
+</html>
